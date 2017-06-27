@@ -6,11 +6,12 @@
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
   -->
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="assets/stylesheets/normalize.css">
   <!--
     application.css is where you put your styles
   -->
-  <link rel="stylesheet" href="css/application.css">
+  <link rel="stylesheet" href="assets/stylesheets/application.css">
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/mousetrap.js"></script>
@@ -21,12 +22,35 @@
   <title>256!</title>
 </head>
 <body>
-  <h1>THE GAME IS HERE!</h1>
-  <div id="grid">
-    <div id="row1"></div>
-    <div id="row2"></div>
-    <div id="row3"></div>
-    <div id="row4"></div>
+  <div class="container">
+
+  <h1>256!</h1>
+      <table class="grid">
+          <tr id="row1">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr id="row2">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr id="row3">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr id="row4">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+      </table>
   </div>
 </body>
 </html>
