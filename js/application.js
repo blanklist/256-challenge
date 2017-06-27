@@ -8,7 +8,7 @@ Game.prototype.initialize = function() {
 
 $(document).ready(function() {
   game.initialize();
-  console.log(game)
+  console.log(game);
 });
 
 
@@ -146,3 +146,5 @@ Game.prototype.empty = function(row,column) {
   return game.board[row][column] == null
   return false
 }
+
+
